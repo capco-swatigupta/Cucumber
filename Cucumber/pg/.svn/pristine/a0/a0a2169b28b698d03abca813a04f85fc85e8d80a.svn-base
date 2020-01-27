@@ -1,0 +1,12 @@
+{
+   "Deposit": {
+      "ToCheckDepsoitFlow": {
+         "uName":"swati",
+         "pwd":"swati",
+         "accountType": {
+          "accountValue":"Primary"
+         },
+        "amount":"10000"
+        }
+     }
+}

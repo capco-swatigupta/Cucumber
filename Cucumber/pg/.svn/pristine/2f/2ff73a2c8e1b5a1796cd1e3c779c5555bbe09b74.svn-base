@@ -1,0 +1,22 @@
+@ExecuteAll
+Feature:F2_Deposit
+ 
+  Scenario Outline: <TestCase>
+    Given user Launches PiggyBank application
+    When user login "uName" as username and "pwd" as password
+    And user click on "signInBtn" as signIn
+    And user click on "Deposit" as deposit
+    And user select value "AccountValue" in  "AccountType" 
+    And user enter "amount" in "Amount"     
+    And user click on "depositBtn" 
+    Then verify the balance in account
+
+    
+    Examples:
+    |TestCase|
+    |DepositFlow|
+    
+    
+ 
+    
+  

@@ -1,0 +1,12 @@
+{
+   "Login": {
+      "ValidLogin": {
+         "uName":"swati",
+         "pwd":"swati"
+         },
+           "Invalid_BlankLogin": {
+         "uName":"swati",
+         "pwd":""
+         }
+     }
+}

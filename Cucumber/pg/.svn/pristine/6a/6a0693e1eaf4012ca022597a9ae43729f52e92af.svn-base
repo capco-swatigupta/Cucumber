@@ -1,0 +1,100 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3168200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "ToCheckLoginFlow",
+        "description": "",
+        "id": "login;\u003ctestcase\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15238551700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launches PiggyBank application",
+            "match": {
+              "location": "GenericSteps.user_Launches_PiggyBank_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4615276200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login \"userName\" as username and \"password\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"userName\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 38
+                }
+              ],
+              "location": "GenericSteps.user_login_as_username_and_as_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4773457100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on \"signInBtn\" as signIn",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"signInBtn\"",
+                  "offset": 14
+                }
+              ],
+              "location": "GenericSteps.user_click_on_as_signIn(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ExecuteAll"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/capco/features/Login.feature",
+    "tags": [
+      {
+        "name": "@ExecuteAll",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
